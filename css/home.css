@@ -1,0 +1,376 @@
+body,div,p,h1,h2,h3,h4,h5,h6,ul{
+	padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6,ul{
+	color: #000;
+}
+div{
+	display: block;
+}
+*{
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+img{
+	width: 100%;
+}
+.home{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.home-top{
+	padding: 10px;
+	border-bottom: solid 1px #ccc;
+	background-color: #F8F8F8;
+	width: 100%;
+}
+.home-top-logo{
+	max-width: 80%;
+	float: left;
+	height: 100%;
+}
+.home-top-logo img{
+	vertical-align: middle;
+	display: inline-block;
+}
+.home-top-right{
+	float: right;
+	max-width: 20%;
+}
+
+.top-btn{
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.home-top-right .top-btn{
+	border-color: #ddd;
+}
+.home-top-right .top-btn span{
+	background-color: #888;
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+
+}
+.home-top-right .top-btn span+span{
+	margin-top: 4px;
+}
+.home-top-menu{
+	display: none;
+}
+.home-top-menu .list-group{
+	margin: 0;
+}
+.home-top-menu .list-group>.list-group-item{
+	border-radius: 0;
+	border: none;
+	background-color: #e7e7e7;
+}
+.home-top-menu .list-group .list-group-item a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+.home-body{
+	padding-bottom: 10px;
+}
+.product-card{
+	border: solid 1px #ddd;
+	margin-bottom: 15px;
+}
+.product-card a{
+	text-decoration: none;
+	color: #000;
+}
+.product-card a:hover{
+	text-decoration: none;
+}
+.product-title{
+	padding: 10px;
+	background-color: #fcfcfc;
+}
+.knowledge-text{
+	line-height: 20px;
+	text-align: left;
+}
+.knowledge .btn{
+	margin-top: 10px; 
+}
+.ronyu .carousel-control{
+	height: 15%;
+	top: 40%;
+}
+.productclass-list .btn{
+	margin-bottom: 10px;
+}
+.home-bottom-nav{
+	background-color: #D7D7D7;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	max-width: 800px;
+}
+.bottom-nav-logo{
+	padding: 10px 0;
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+.newstext {
+	padding: 20px 15px 30px 10px;
+	line-height: 26px;
+}
+.imgright{
+	float: right;
+	display: block;
+	width: auto;
+}
+.newstext p{
+	text-indent: 2em;
+	padding: 5px 0;
+}
+.cd-main-content, .cd-main-header {
+	/* Force Hardware Acceleration in WebKit */
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+}
+.cd-main-content, .cd-main-header {
+	position: relative;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+.cd-main-content {
+	z-index: 2;
+}
+.container .Bread-nav {
+	position:absolute;
+	background: rgba(0, 0, 0, 0.6) !important; /* IE无效，FF有效 */
+	background:#eceded;
+	filter: alpha(opacity=60);
+	width:100%;
+	padding:5px 0;
+	text-indent:1.5em;
+	color:#fff;
+	left:0;
+	bottom:0;
+	text-align:right;
+	padding-right:20px;
+}
+.container .Bread-nav a {
+	color:#fff
+}
+.certificate-card{
+	border: solid 1px #ddd;
+}
+.certificate-name{
+	padding: 10px;
+	font-size: 12px;
+}
+.introduction-title{
+	padding: 10px;
+	border-bottom: solid 1px #ddd;
+	margin-bottom: 20px;
+}
+.introduction-title h3{
+	color: #000;
+}
+.newstext ul{
+	padding: 10px 0;
+	clear: both;
+	margin: 0;
+	list-style: none;
+}
+.newstext li{
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+.newstext .t01 {
+	background: url(../img/t1.jpg) no-repeat 0 center;
+	padding-left:25px;
+}
+.newstext .t02 {
+	background: url(../img/t2.jpg) no-repeat 0 center;
+	padding-left:25px;
+}
+.newstext .t03 {
+	background: url(../img/t3.jpg) no-repeat 0 center;
+	padding-left:25px;
+}
+.newstext .t04 {
+	background: url(../img/t4.jpg) no-repeat 0 center;
+	padding-left:25px;
+}
+.newstext .t05 {
+	background: url(../img/t5.jpg) no-repeat 0 center;
+	padding-left:25px;
+}
+.newstext .t06 {
+	background: url(../img/t6.jpg) no-repeat 0 center;
+	padding-left:25px;
+}
+.newstext .t07 {
+	background: url(../img/t7.jpg) no-repeat 0 center;
+	padding-left:25px;
+}
+.lyzx{
+	padding: 10px;
+}
+.product-model{
+	padding: 10px;
+	border: solid 1px #ccc;
+	margin: 0 15px;
+	box-shadow: 1px 0px 8px #ccc;
+	border-right: 4px;
+	margin-bottom: 30px;
+}
+.product-one-list{
+	border-bottom: solid 1px #ccc;
+	padding-bottom:  10px;
+}
+.product-list-title{
+	width: 100%;
+	border-left: solid 2px #CE012F;
+	padding-left: 10px;
+
+}
+.product-list-title h4{
+	font-weight: 900;
+}
+.product-list-title a{
+	text-decoration: none;
+	line-height: 40px;
+	color: #999999;
+}
+.journalism-x ul,
+.product-list-title,
+.newstext ul,
+.home-top:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.productdetails-xl{
+	padding: 10px;
+}
+.product-select-link{
+	padding: 10px;
+}
+.product-select-link a{
+	margin-right: 8px;
+	text-decoration: none;
+	color: #000;
+	line-height: 22px;
+}
+.product-select-link .avc{
+	color: #B81B32;
+}
+.productdeta-img{
+	padding: 10px;
+	margin-top: 20px;
+}
+.productdeta-img img{
+	border: solid 1px #756e6c;
+}
+.productdeta-img h3{
+	font-weight: 900;
+}
+.cateby{
+	padding: 10px;
+}
+.tab-box{
+	padding: 10px;
+}
+.tab-box .tab-pane ol li{
+	margin-bottom: 5px;
+}
+
+
+
+
+.txt-tit {
+	color: #fff;
+	font-size: 18px;
+	height: 40px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	padding-left:25px;
+	display:table;
+	width:100%;
+	background:url(../img/zx_h2.gif) left bottom no-repeat;
+}
+
+
+.pxianguan {
+	padding:30px 0 50px 0;
+	overflow:hidden;
+}
+.pxianguan .main-box {
+	width:48%;
+	border: solid 1px #ccc;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 20px;
+}
+.pxianguan .main-box .main-box-img {
+	border:#ddd 1px solid;
+	margin-right:20px;
+	padding:1px
+}
+.pxianguan .main-box-p {
+}
+.pxianguan .main-box-p span a {
+	font-size:1.0em;
+	line-height:26px;
+	color:#000;
+}
+.caselist{
+	padding: 10px;
+}
+.case-sj{
+	margin-top: 5px;
+	color: #c5c5c5;
+}
+.zjxj .list-group-item,
+.cpzx .list-group-item,
+.gsxw .list-group-item{
+	background-color: #fff;
+}
+.gsxw,
+.zjxj,
+.cpzx{
+	display: none;
+}
+
+.journalism-x ul{
+	list-style: none;
+	width: 100%;
+	margin-top: 15px;
+}
+.journalism-x ul li{
+	float: left;
+	color: #999999;
+}
+.journalism{
+	padding: 0 10px;
+}
+.journalism p{
+	text-indent: 2em;
+	padding: 5px 0;
+	line-height: 26px;
+}
